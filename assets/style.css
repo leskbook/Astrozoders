@@ -1,0 +1,174 @@
+
+/* Background photos for all screens*/
+.background {
+  background: url(./photos/zodiac.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.home-page {
+  background: url(./photos/cosmos.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.tarot-page {
+  background: url(./photos/tarot.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* color for nav bar and sun sign buttons */
+.color-aries:hover {
+  background-color: #ffeb3b;
+}
+.color-taurus:hover {
+  background-color: #ff9800;
+}
+.color-leo:hover {
+  background-color: #520748;
+}
+.color-capricorn:hover {
+  background-color: #71c018;
+}
+.color-libra:hover {
+  background-color: #1a8bf5;
+}
+.color-scorpio:hover {
+  background-color: #0d9482;
+}
+.color-cancer:hover {
+  background-color: #af347c;
+}
+.color-sagitarius:hover {
+  background-color: #077446;
+}
+.color-aquarius:hover {
+  background-color: #e29d35;
+}
+.color-pisces:hover {
+  background-color: #b46e06;
+}
+.color-virgo:hover {
+  background-color: #130972;
+}
+.color-gemini:hover {
+  background-color: #bd1a15;
+}
+
+/* styling for mobile nav bar*/
+li {
+  list-style-type: none;
+}
+
+/* pushing all text down from nav bar */
+section {
+  margin-top: 50px !important;
+}
+aside {
+  margin-top: 50px !important;
+}
+
+/* styling for html */
+.container {
+  max-width: 90%;
+  min-width: 90%;
+ 
+}
+#about {
+  color: white;
+  text-align: left;
+  justify-content: left;
+}
+
+.signs {
+  color: ivory;
+  text-align: center;
+  justify-content: center;
+}
+
+.daily {
+  color: ivory;
+}
+
+.w3-card {
+  float: left;
+  display: inline;
+  max-width: 40%;
+  min-width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 2%;
+}
+
+.w3-card p {
+  font-size: smaller;
+}
+
+#name {
+  border: black 1px solid;
+  background-color: ivory;
+  max-height: 30px;
+  width: 75%;
+}
+
+.modal-content {
+  color: black;
+}
+
+h4 { 
+  color: white !important;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h6 {
+  cursor: pointer;
+}
+p {
+  cursor: pointer;
+}
+.row {
+  margin-top: 20px;
+}
+
+/* tarot card styling*/
+.tcard {
+  display: flex;
+  justify-content: center;
+  
+}
+.card {
+  max-height: 80%;
+  max-width: 80%;
+}
+
+#tarot-desc{
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+}
+
+/* media queries*/
+@media (max-width: 690px) {
+  .background {
+  background: url(./photos/cosmos.jpg) no-repeat center center fixed;
+}
+}
+ @media only screen and (min-width: 993px) {
+  .container {
+     width: 90%;
+  }
+} 
